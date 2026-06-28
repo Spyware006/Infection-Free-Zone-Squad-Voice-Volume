@@ -1,0 +1,14 @@
+INSTALLATION
+
+Copy IFZ_SquadVoiceVolume.dll into:
+
+Infection Free Zone/
+└── BepInEx/
+    └── plugins/
+
+On first launch the plugin creates:
+
+Infection Free Zone/
+└── BepInEx/
+    └── config/
+        └── ifz.squadvoicevolume.cfg
