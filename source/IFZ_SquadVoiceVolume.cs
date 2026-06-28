@@ -33,8 +33,8 @@ public class IFZSquadVoiceVolumePlugin : BaseUnityPlugin
         Enabled = Config.Bind("General", "Enabled", true, "Enable/disable the plugin.");
         ChooseVolume = Config.Bind("Volume", "ChooseVolume", 0.10f, "Volume for rvoice_squad_choose. 1.0 = original, 0.10 = 10%.");
         GoVolume = Config.Bind("Volume", "GoVolume", 0.10f, "Volume for rvoice_squad_go. 1.0 = original, 0.10 = 10%.");
-        AttackVolume = Config.Bind("Volume", "AttackVolume", 1.00f, "Volume for rvoice_squad_attack. 1.0 = original.");
-        BuildingClearVolume = Config.Bind("Volume", "BuildingClearVolume", 1.00f, "Volume for rvoice_squad_building_clear. 1.0 = original.");
+        AttackVolume = Config.Bind("Volume", "AttackVolume", 1.00f, "Volume for rvoice_squad_attack.");
+        BuildingClearVolume = Config.Bind("Volume", "BuildingClearVolume", 1.00f, "Volume for rvoice_squad_building_clear.");
         DebugLog = Config.Bind("Debug", "DebugLog", false, "Keep false for best performance.");
 
         SoundsDictField = typeof(FmodRvoicePlayer).GetField("_helpfulDictWithRvoicesDividedByRadioMsg", BindingFlags.Instance | BindingFlags.NonPublic);
@@ -72,6 +72,7 @@ public class IFZSquadVoiceVolumePlugin : BaseUnityPlugin
 
         string msgId = GetRadioMessageId(radioMessage);
         float volume = GetVolumeForMessage(msgId);
+
         if (volume >= 0.999f)
         {
             return true;
@@ -129,6 +130,7 @@ public class IFZSquadVoiceVolumePlugin : BaseUnityPlugin
                 object value = RadioMessageIdField.GetValue(radioMessage);
                 return value as string;
             }
+
             if (RadioMessageIdProperty != null)
             {
                 object value = RadioMessageIdProperty.GetValue(radioMessage, null);
@@ -138,6 +140,7 @@ public class IFZSquadVoiceVolumePlugin : BaseUnityPlugin
         catch
         {
         }
+
         return null;
     }
 
