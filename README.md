@@ -4,27 +4,29 @@
 
 # Infection Free Zone – Squad Voice Volume
 
+*A lightweight BepInEx quality-of-life plugin.*
+
 > **Reduce the noise, keep the important radio calls.**
 
-Created by **Spyware006**
-
-![Version](https://img.shields.io/badge/version-1.0.0-green)
+![Version](https://img.shields.io/badge/version-1.0.0-brightgreen)
 ![BepInEx](https://img.shields.io/badge/BepInEx-5.x-blue)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
+Created by **Spyware006**
+
 ## Features
 
-- Reduces squad acknowledgement voice volume.
-- Keeps important combat and alert radio transmissions unchanged.
-- Lightweight BepInEx + Harmony patch.
-- Configurable through a simple `.cfg` file.
-- No changes to game files or audio banks.
+- ✅ Reduces squad acknowledgement voice volume.
+- ✅ Keeps important combat and alert radio transmissions unchanged.
+- ✅ Lightweight Harmony patch.
+- ✅ Configurable through a simple `.cfg` file.
+- ✅ No game files are modified.
 
 ## Why?
 
-Infection Free Zone has useful radio feedback, but repeated squad acknowledgements such as “Roger”, “On my way”, and similar lines can become overwhelming during longer play sessions.
+Infection Free Zone features excellent radio voice acting. However, repeated squad acknowledgements such as “Roger” or “On my way” can become distracting during extended gameplay.
 
-This mod lowers those repeated squad confirmation voices while preserving important alerts and combat-related transmissions.
+This mod lowers only those repetitive confirmations while preserving important combat and alert communications.
 
 ## Installation
 
@@ -90,10 +92,12 @@ DebugLog = false
 
 ## Compatibility
 
-- Game: **Infection Free Zone**
-- Mod loader: **BepInEx 5.x**
-- Platform: **Windows**
-- Tested with the Steam version.
+| Item | Status |
+|------|--------|
+| Tested on | **2026-06-28** |
+| Game branch | **Steam – Major Update #6** |
+| BepInEx | **5.x** |
+| Platform | **Windows** |
 
 ## Uninstall
 
