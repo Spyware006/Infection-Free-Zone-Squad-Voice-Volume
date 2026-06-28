@@ -8,7 +8,8 @@
 
 > **Reduce the noise, keep the important radio calls.**
 
-![Version](https://img.shields.io/badge/version-1.0.0-brightgreen)
+[![Latest Release](https://img.shields.io/github/v/release/Spyware006/Infection-Free-Zone-Squad-Voice-Volume?label=Latest%20Release&color=brightgreen)](https://github.com/Spyware006/Infection-Free-Zone-Squad-Voice-Volume/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/Spyware006/Infection-Free-Zone-Squad-Voice-Volume/total?label=Downloads&color=blue)](https://github.com/Spyware006/Infection-Free-Zone-Squad-Voice-Volume/releases/latest)
 ![BepInEx](https://img.shields.io/badge/BepInEx-5.x-blue)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
