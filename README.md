@@ -131,3 +131,4 @@ This project is released under the MIT License.
 ## Credits
 
 Created by **Spyware006**.
+If you enjoy, why not leaving a ⭐ ^_^
