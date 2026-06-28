@@ -12,6 +12,11 @@
 ![BepInEx](https://img.shields.io/badge/BepInEx-5.x-blue)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
+## 📥 Download
+
+➡️ **[Download the latest release](https://github.com/Spyware006/Infection-Free-Zone-Squad-Voice-Volume/releases/latest)**
+
+---
 
 ## Features
 
