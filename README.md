@@ -12,7 +12,6 @@
 ![BepInEx](https://img.shields.io/badge/BepInEx-5.x-blue)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-Created by **Spyware006**
 
 ## Features
 
