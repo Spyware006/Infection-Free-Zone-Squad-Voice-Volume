@@ -1,14 +1,33 @@
+Infection Free Zone - Squad Voice Volume
+Created by Spyware006
+
 INSTALLATION
 
-Copy IFZ_SquadVoiceVolume.dll into:
+1. Install BepInEx 5 x64 for Infection Free Zone.
+2. Launch the game once, then close it.
+3. Copy IFZ_SquadVoiceVolume.dll into:
 
 Infection Free Zone/
 └── BepInEx/
     └── plugins/
 
-On first launch the plugin creates:
+4. Launch the game.
+
+On first launch, the plugin automatically creates:
 
 Infection Free Zone/
 └── BepInEx/
     └── config/
         └── ifz.squadvoicevolume.cfg
+
+CONFIGURATION
+
+Open ifz.squadvoicevolume.cfg and edit the values.
+
+1.00 = original volume
+0.10 = 10% volume
+0.00 = muted
+
+UNINSTALL
+
+Delete IFZ_SquadVoiceVolume.dll from BepInEx/plugins.
